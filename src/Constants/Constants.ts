@@ -23,7 +23,7 @@ const portfolioConstants={
                         },
     'Services':[{Title:"Single Page Applications i.e., React",image:'/Images/React.png'},{Title:"Custom Power Apps Solutions and Integrations",image:"/Images/Powerapps.png"},{Title:"Workflows Creation and Integrations",image:'/Images/Powerautomate.png'},{Title:"Sharepoint apps creation and permissions",image:'/Images/sharepoint.jpg'}],
     'Servicesinfo':"Skilled in crafting dynamic user interfaces with React.js, I design and implement custom solutions using Power Apps for intuitive experiences, coupled with efficient business process automation through Power Automate.",
-    'Experience':[{CompanyName:"Technovert Solutions",Role:"Software Developer",Duration:"February 2023 - Present",logo:{image:'https://tezo.com/wp-content/uploads/2023/10/TezoLogo.svg',alterText:"Tezo",}},
+    'Experience':[{CompanyName:"Technovert Solutions",Role:"Software Developer",Duration:"February 2023 - Present",logo:{image:'/Images/tezologo.png',alterText:"Tezo",}},
                   {CompanyName:"Cognizant Solutions",Role:"Program Analyst Trainee",Duration:"November 2021 - February 2023",logo:{image:'/Images/cognizant.png',alterText:"Cognizant"}}],
     'Projects':[{image:"https://www.doditsolutions.com/wp-content/uploads/movie-theater-revival-popcorn-1.jpg",Name:"Ticket Booking Application",Description:"This Project is about booking a ticket online for a movie",TechnolgiesUsed:"React,NodeJS,MongoDb"},
                 {image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrk89AqR8QX4eaL41sM9WoIVqCtErnIegWoQ&usqp=CAU",Name:"Loan App",Description:"the project contains user information and loan details and also user and edit the details",TechnolgiesUsed:"React,NodeJS,MongoDb"},

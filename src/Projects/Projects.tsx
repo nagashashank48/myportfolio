@@ -52,7 +52,7 @@ const Projects = (props:IDarkmode) => {
       <div className='projectheader'>
       <img className='projectImage' src={Constants.Projects[project].image}/>
       <div className='projectTitle'>{Constants.Projects[project].Name}</div>
-      <img className='quotes' src={'/Images/quote.svg'}/>
+      <img className='quotes' src={process.env.PUBLIC_URL + '/Images/quote.svg'}/>
       </div>
       <div className='projectDescription'>{Constants.Projects[project].Description}</div>
       <div className='projectTechnologies'><span className='stackslbl'>Stacks :- </span><span className='stacks'>{Constants.Projects[project].TechnolgiesUsed}</span></div>

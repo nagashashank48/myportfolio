@@ -18,7 +18,7 @@ const Services = (props:IDarkmode) => {
         <div ref={servicesContainerRef} className='Servicesinfo'>
             {Constants.Services.map((item)=>{
                 return <div className={props.Darkmode?'ServiceCardDarkmode':'ServiceCardLightmode'}>
-                    <img src={item.image} className='Serviceimage'/>
+                    <img src={process.env.PUBLIC_URL +  item.image} className='Serviceimage'/>
                     <div className='ServiceTitle'>{item.Title}</div>
                     <div className='Learnmorelbl'>Learn More <ArrowRightAltOutlinedIcon className='arrowicon'/></div>
                 </div>

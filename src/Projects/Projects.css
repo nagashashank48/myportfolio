@@ -89,3 +89,24 @@
     margin-right: 1%;
     cursor: pointer;
 }
+@media screen and (max-width: 600px) {
+   .projectImage{
+    width: 60%;
+    height: 50px;
+   }
+
+.quotes{
+ width:25%
+} 
+.projectTitle{
+    margin-left: 0%;
+    display: block;
+    top:22%
+}
+.projectDescription{
+margin-top: 45%;
+}
+.stacks{
+    font-size: 14px;
+}
+}

@@ -47,6 +47,8 @@
 .CompanyName{
     font-size: 35px;
     margin-top: 0%;
+    font-weight: bold;
+
 }
 .CompanyRole{
     font-size: 25px;
@@ -54,3 +56,19 @@
 .CompanyDuration{
     font-size: 20px;
 }
+@media screen and (max-width: 600px) {
+    .Companyimage{
+        height: 40%;
+        width: 60%;    
+    }
+    .CompanyName{
+        font-size: 16px;
+    }
+    .CompanyRole{
+        font-size: 15px;
+    }
+    .CompanyDuration{
+        font-size: 13px;
+
+    }
+ }

@@ -42,7 +42,7 @@ const removebyletter=()=>{
 }
   return (
     <div className='Home'> 
-    <img src={'/Images/guardsmanlogo.png'} className='profilephoto'/> 
+    <img src={process.env.PUBLIC_URL + '/Images/guardsmanlogo.png'} className='profilephoto'/> 
     <div className='Name HorizontolCenter'>Hello, I'm {Constants.Name}</div>
     <div className='TypingText'><span className='Header'>{header}</span></div>
     <div className='HorizontolCenter'><span className='Overview'>{Constants.PersonalOverview}</span></div>
