@@ -1,0 +1,72 @@
+.Services{
+    padding-left: 3%;
+    padding-bottom: 3%;  
+}
+.Serviceslbl{
+    font-size: 35px; 
+    padding-top: 7%;
+}
+.ServicesOverview{
+    margin: 3% 0%;
+    width: 90%;
+    font-size: 16px;
+}
+.Servicesinfo{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0%;
+    transform: translateX(-40%);
+    transition: transform 1s ease-in-out
+}
+.ServiceCardDarkmode{
+    background-color: #202121;
+    margin-right: 4%;
+    width: 21%;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.ServiceCardLightmode{
+    background-color: rgb(245,248,252);
+    margin-right: 4%;
+    width: 21%;
+    border-radius: 5%; 
+    cursor: pointer;
+}
+.ServiceTitle{
+    margin:  10% 10% 5% 10%;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+.Serviceimage{
+    height: 100px;
+    width: 160px;
+    margin-left: 17%;
+    margin-top: 15%;
+}
+.Learnmorelbl{
+    margin: 0% 0% 10% 10%;
+    position: relative;
+    bottom: 0px;
+    font-size: 13px;
+}
+.arrowicon{
+    top: 8px;
+    position: relative;
+}
+@media screen and (max-width: 600px) {
+    .Serviceimage{
+        height: 45px;
+        width: 60px;
+    }
+    .ServiceTitle{
+        font-size: 12px;
+    }
+    .Learnmorelbl{
+        font-size: 9px;
+    }
+    .Learnmorelbl .arrowicon{
+        font-size: 15px;
+        top: 5px;
+    }
+ }

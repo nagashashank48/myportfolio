@@ -1,0 +1,76 @@
+.ContactsDarkmode{
+    background-color: #202121;
+    padding-left: 3%;
+    padding-bottom: 3%;   
+}
+.ContactsLightmode{
+    background-color: rgb(245,248,252);
+    padding-left: 3%;
+    padding-bottom: 3%; 
+}
+.Contactlbl{
+    font-size: 35px; 
+    padding-top: 7%;
+}
+.ContactsBlock{
+    display: flex;
+    margin: 5% 0%;
+}
+.ContactDarkmode{
+    display: flex;
+    margin-right: 3%;
+    border: 1px solid white;
+    border-radius: 4%;
+    width: 22%;
+    background-color: black;
+}
+.ContactLightmode{
+    display: flex;
+    margin-right: 3%;
+    border: 1px solid white;
+    border-radius: 4%;
+    width: 22%;
+    background-color: white;  
+}
+.ContactDarkmode .contactIcon{
+    font-size: 225%;
+    margin-right: 8%;
+    cursor: pointer;
+    position: relative;
+    transition: color 1s ease;
+}
+.ContactLightmode .contactIcon{
+    font-size: 225%;
+    margin-right: 8%;
+    cursor: pointer;
+    position: relative;
+    transition: color 1s ease;
+}
+.ContactLogo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 5%;
+    color: inherit;
+}
+.iconNavigate{
+    color: inherit;
+}
+.ContactDetails{
+    margin: 15% 0% 15% 5%;
+}
+.contactTitle{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin-right: 4%;
+}
+.contactValue{
+    font-size: 14px;
+    display: flex;
+    margin-top: 4%;
+    font-weight: bold;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}

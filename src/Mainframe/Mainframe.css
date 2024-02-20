@@ -1,0 +1,52 @@
+.mainframedarkmode{
+    background-color: black;
+    height: auto;
+    color: white;
+    z-index: -1;
+}
+.mainframelightmode{
+    background-color: white;
+    height: auto;
+    color: black;
+    z-index: -1;
+}
+.Navigationbar{
+    position: fixed;
+    width: 100%;
+    z-index: 7;
+}
+/* .Navigation{
+    display: flex;
+} */
+.darkmodechangebtn{
+    z-index: 1;
+    position: fixed;
+    right: 0;
+    top: 45%;
+    background: white;
+    color: black;
+    height: 8%;
+    width: 4%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.lightmodechangebtn{
+    z-index: 1;
+    position: fixed;
+    right: 0;
+    top: 45%;
+    background: black;
+    color: white;
+    height: 8%;
+    width: 4%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

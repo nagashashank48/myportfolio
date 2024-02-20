@@ -1,0 +1,56 @@
+.Experience{
+    padding-left: 3%;
+    padding-bottom: 3%;
+}
+.Experiencelbl{
+    font-size: 35px; 
+    padding-top: 7%; 
+}
+.Companies{
+    display: flex;
+    margin-bottom: 5%;
+}
+.CompanyCardDarkmode{
+    width: 40%;
+    border:1px solid transparent;
+    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    border-image-source: linear-gradient(71deg, #0d1212, #3da077, #0d1212);
+    border-image-slice: 1;
+    padding: 2%;
+    margin-right: 5%;
+    margin-top: 5%;
+    /* border-radius: 5%; */
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+.CompanyCardLightmode{
+    width: 40%;
+    border:1px solid transparent;
+    background: rgb(245, 248, 252);
+    border-image-source: linear-gradient(71deg, #0d1212, #3da077, #0d1212);
+    border-image-slice: 1;
+    padding: 2%;
+    margin-right: 5%;
+    margin-top: 5%;
+    /* border-radius: 5%; */
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+.Companyimage{
+    height: 55%;
+    width: 50%;
+    mix-blend-mode: multiply;
+
+}
+.CompanyName{
+    font-size: 35px;
+    margin-top: 0%;
+}
+.CompanyRole{
+    font-size: 25px;
+}
+.CompanyDuration{
+    font-size: 20px;
+}

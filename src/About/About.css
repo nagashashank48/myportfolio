@@ -1,0 +1,161 @@
+.AboutSectionDarkmode{
+    padding-left: 3%;
+    background-color:#202121;
+}
+.AboutSectionLightmode{
+    padding-left: 3%;
+    background-color: rgb(245,248,252);
+}
+.aboutTitle{
+    font-size: 35px; 
+    padding-top: 10%; 
+}
+.FirsthalfSection{
+    width: 45%;
+    }
+.SecoundhalfSection{
+width: 55%;
+ }
+.Personalinfo{
+    display: flex;
+    margin-top: 20px;
+}
+.Nameinabout{
+    font-size: 30px;
+    margin-top: 3%;
+}
+.aboutinfo{
+    margin-top: 2%;
+}
+.EducationTitle{
+    font-size: 30px;
+    margin-top: 5%;
+}
+.EducationType{
+    font-size: 22px;
+    margin-top: 3%;
+}
+.DegreeName{
+    margin-left: 1%;
+}
+.College{
+    font-size: 18px;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+.DegreeDuration{
+    margin-left: 5%;
+    margin-top: 1%;
+    font-size: 18px;
+}
+.SeeMore{
+    height:45px;
+    border-radius: 10%;
+    width: 10%;
+    margin-top: 2%;
+    font-size: 15px;
+    background-color: white;
+    color:black;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-bottom: 4%;
+}
+.SeeMore:hover{
+    height:45px;
+    border: 2px solid white;
+    border-radius: 10%;
+    width: 10%;
+    margin-top: 2%;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    margin-bottom: 4%;
+
+}
+.Technologieslbl{
+    font-size: 25px;
+    margin-left: 5%;
+}
+.SecoundhalfSection .doticon{
+    font-size: 10px;
+    margin-left: 7%;
+    margin-top: 2%;
+    margin-right: 2%;
+    top:2px
+
+}
+.popupcard{
+    color: white;
+    background-color: rgb(18,22, 31);
+    display: grid;
+    top:15%;
+    position: relative;
+    width: 65%;
+    height: 60%;
+    padding: 3%;
+    left:15%;
+    overflow-y: scroll;
+}
+.Infolbl{
+    border-bottom: 3px dotted;
+    width: fit-content;
+    font-size: 28px;
+    margin-bottom: 4%;
+}
+.PersonalDetails{
+    display: flex;
+}
+.LeftSection{
+    margin-right: 25%;
+}
+.infoblock{
+    width: max-content;
+    margin-bottom: 3%;
+}
+.infolabel{
+    color: rgb(139, 144, 162);
+    font-size: 18px;
+}
+.infoValue{
+    font-size: 19px;   
+}
+.linkedlink{
+    color: white;
+}
+.EducationalDetialslbl{
+    border-bottom: 3px dotted;
+    width: fit-content;
+    font-size: 28px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.EducationBlock{
+    margin-bottom: 4%;
+}
+.iconRow{
+    display:flex
+}
+.EducationalDetials .Educationicon{
+    font-size: 30px;
+}
+.Passedout{
+    font-size: 22px;
+    background-color: rgb(255,255,255,0.4);
+    border-radius: 10px;
+    display: block;
+    width: 7%;
+    text-align: center;
+    margin-left: 3%;
+}
+.EducationName{
+    display: block;
+    font-size: 20px;
+    margin-top: 1%;
+    margin-left: 7%;
+}
+.EducationCollege{
+    display: block;
+    font-size: 20px;
+    margin-top: 1%;
+    margin-left: 7%; 
+}
