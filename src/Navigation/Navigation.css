@@ -108,3 +108,33 @@
     border-bottom: 2px solid grey;
     height: 30px;
 }
+@media screen and (max-width: 600px) {
+    .NavigationbarLightmode{
+        height: auto;
+    }
+    .NavigationbarDarkmode{
+        height: auto;
+    }
+    .MenuIcon{
+        right: 0px;
+        top: 17%;
+        position: fixed;
+    }
+    .Navigation{
+        display: block;
+    position: absolute;
+    margin-top: 6%;
+    }
+    .TabButtonDarkmode{
+        padding-left: 71%;
+        padding-top: 1%;
+        background-color: #202121;
+        gap: 10px;
+    }
+    .TabButtonLightmode{
+        padding-left: 71%;
+        padding-top: 1%;
+        background-color: rgb(245,248,252);
+        gap: 10px;
+    }
+ }
