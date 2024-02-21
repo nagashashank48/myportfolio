@@ -118,6 +118,7 @@
     .MenuIconDarkmode{
         top: 17%;
         display: flex;
+        height: 45px;
         justify-content: end;
         width: 100%;
         position: fixed;
@@ -126,27 +127,36 @@
     .MenuIconLightmode{
         top: 17%;
         display: flex;
+        height: 45px;
         justify-content: end;
         width: 100%;
         background-color: rgb(245, 248, 252);
         position: fixed;
     }
+    .MenuIconDarkmode .Menuicon{
+        font-size: 30px;
+        margin-top: 2%;
+        margin-right: 3%;
+    }
+    .MenuIconLightmode .Menuicon{
+        font-size: 30px;
+        margin-top: 2%;
+        margin-right: 3%;
+    }
     .Navigation{
         display: block;
     position: absolute;
-    margin-top: 6%;
+    margin-top: 45px;
     }
     .TabButtonDarkmode{
         margin-left: 65%;
-        padding-top: 1%;
-        padding-left: 3%;
+        padding: 2% 0% 2% 3%;
         background-color: #202121;
         gap: 10px;
     }
     .TabButtonLightmode{
          margin-left: 65%;
-        padding-top: 1%;
-        padding-left: 3%;
+         padding: 2% 0% 2% 3%;
         background-color: rgb(245,248,252);
         gap: 10px;
     }

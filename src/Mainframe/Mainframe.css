@@ -50,12 +50,12 @@
 }
 @media screen and (max-width: 600px) {
     .darkmodechangebtn{
-    top: 30%;
+    top: 35%;
     height: 5%;
     width: 8%;
 }
 .lightmodechangebtn{
-    top: 30%;
+    top: 35%;
     height: 5%;
     width: 8%;
 }

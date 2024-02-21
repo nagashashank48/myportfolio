@@ -1,38 +1,41 @@
-const portfolioConstants={
-   'TechStack':["MERN Stack Developer","Power Platform Developer"],
-    'Name':"Siva Gnani Meruga",
-    'PersonalOverview':"I'm a Mern Stack and Power Platform Developer over 3 years of Professional experience.",
-    'aboutyourself':" I'm Siva Gnani Meruga, a passionate Developer with a love for Full Stack. With a background in software, I bring a unique blend of frontend and a creative approach to problem-solving.",
-    'Education':[{Title:"Bachelors of Technology",College:"Sreenidhi institute of science and Technology",PassedOut:"2021"},
-                 {Title:"Inter",College:"Narayana Junior College",PassedOut:"2017"},
-                 {Title:"SSC",College:"Kakatiya Techno School",PassedOut:"2015"}],
-    'Technologies':["HTML","CSS","React","Power Automate","Power apps","SharePoint"],
-    'Personalinfo':{
-                        FirstName:"Siva Gnani",
-                        LastName:"Meruga",
-                        Age:"24",
-                        Nationality:"Indian",
-                        Address:"Hyderabad" ,
-                        Phone :"1234567890",
-                        Email:"nagashashank48@gmail.com",
-                        Languages:"Telugu,Hindi,English",
-                        Linkedin:{
-                                    Link:"https://www.google.com/",
-                                    Name:"shashank"
-                                }   
-                        },
-    'Services':[{Title:"Single Page Applications i.e., React",image:'/Images/React.png'},{Title:"Custom Power Apps Solutions and Integrations",image:"/Images/Powerapps.png"},{Title:"Workflows Creation and Integrations",image:'/Images/Powerautomate.png'},{Title:"Sharepoint apps creation and permissions",image:'/Images/sharepoint.jpg'}],
-    'Servicesinfo':"Skilled in crafting dynamic user interfaces with React.js, I design and implement custom solutions using Power Apps for intuitive experiences, coupled with efficient business process automation through Power Automate.",
-    'Experience':[{CompanyName:"Technovert Solutions",Role:"Software Developer",Duration:"February 2023 - Present",logo:{image:'/Images/tezologo.png',alterText:"Tezo",}},
-                  {CompanyName:"Cognizant Solutions",Role:"Program Analyst Trainee",Duration:"November 2021 - February 2023",logo:{image:'/Images/cognizant.png',alterText:"Cognizant"}}],
-    'Projects':[{image:"https://www.doditsolutions.com/wp-content/uploads/movie-theater-revival-popcorn-1.jpg",Name:"Ticket Booking Application",Description:"This Project is about booking a ticket online for a movie",TechnolgiesUsed:"React,NodeJS,MongoDb"},
-                {image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrk89AqR8QX4eaL41sM9WoIVqCtErnIegWoQ&usqp=CAU",Name:"Loan App",Description:"the project contains user information and loan details and also user and edit the details",TechnolgiesUsed:"React,NodeJS,MongoDb"},
-                {image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzJx_m1Iz7dSE0fyQQuLnX7V7WmjYxuUtqUzh70TfzJVSiLLLSXKnKVT0-ihq1Cp4ND6Q&usqp=CAU",Name:"Contract Review",Description:"The Projects contains 4 levels of approvals and Two levels of adobe sign integration",TechnolgiesUsed:"Power Automate,Sharepoint,Adobe Acrobat Sign"},
-                {image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkoP-aSZVXppayRgy5W6iv_BCRbpLUbbSNnQ&usqp=CAU",Name:"Ticketing Portal",Description:"when a user raise a ticket via email a ticket will be created and we will maintain the tickets",TechnolgiesUsed:"Power apps,Power automate,Sharepoint"},
-                {image:"https://www.itarian.com/images/erp-help-desk-portal.png",Name:"Helpdesk Portal",Description:"when a user raise a ticket via Form a ticket will be created and we will maintain the tickets",TechnolgiesUsed:"Power apps,Power automate,Sharepoint,Microsoft Form"}],
-    'Contact':[{Title:"Email",Value:"Nagashashank48@gmail.com",icon:"EmailIcon",Link:""},
-    {Title:"Phone",Value:"7731077916",icon:"LocalPhoneIcon",Link:""},
-    {Title:"LinkedIn",Value:"Nagashashank",icon:"LinkedInIcon",Link:"https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAADBH-ycB1GMYK60mkpvNkNa0EOtPydADPQ0&keywords=naga%20shashank&origin=RICH_QUERY_SUGGESTION&position=0&searchId=1d72bf88-a5b4-4c3f-986a-eb3ab9edbe19&sid=4xG&spellCorrectionEnabled=false"},
-    {Title:"Address",Value:"Tezo Digital",icon:"HomeIcon",Link:""}]
+const portfolioConstants = {
+    'TechStack': ["MERN Stack Developer", "Power Platform Developer"],
+    'Name': "Siva Gnani Meruga",
+    'PersonalOverview': "I'm a Mern Stack and Power Platform Developer over 3 years of Professional experience.",
+    'aboutyourself': " I'm Siva Gnani Meruga, a passionate Developer with a love for Full Stack. With a background in software, I bring a unique blend of frontend and a creative approach to problem-solving.",
+    'Education': [{ Title: "Bachelors of Technology", College: "Sreenidhi institute of science and Technology", PassedOut: "2021" },
+    { Title: "Inter", College: "Narayana Junior College", PassedOut: "2017" },
+    { Title: "SSC", College: "Kakatiya Techno School", PassedOut: "2015" }],
+    'Technologies': ["HTML", "CSS", "React", "Power Automate", "Power apps", "SharePoint"],
+    'Personalinfo': {
+        FirstName: "Siva Gnani",
+        LastName: "Meruga",
+        Age: "24",
+        Nationality: "Indian",
+        Address: "Hyderabad",
+        Phone: "1234567890",
+        Email: "nagashashank48@gmail.com",
+        Languages: "Telugu,Hindi,English",
+        Linkedin: {
+            Link: "https://www.google.com/",
+            Name: "shashank"
+        }
+    },
+    'Services': [{ Title: "Single Page Applications i.e., React", image: '/Images/React.png', Detailedinfo: "React is a JavaScript library developed by Facebook for constructing dynamic user interfaces in web applications. It employs a component-based architecture, allowing developers to create modular and reusable UI components that encapsulate logic and state. With JSX, developers can integrate HTML-like syntax within JavaScript, enhancing code readability. React's virtual DOM optimizes performance by efficiently updating only the necessary parts of the actual DOM. It adheres to a unidirectional data flow, ensuring a predictable flow of data from parent to child components. State and props manage component-specific data and facilitate data transfer between components. Hooks, introduced in React 16.8, empower functional components with state and lifecycle functionalities. React's popularity stems from its flexibility, scalability, and efficient rendering, making it a prominent choice for building modern and responsive web applications within an active and supportive developer community." }, 
+                { Title: "Custom Power Apps Solutions and Integrations", image: "/Images/Powerapps.png", Detailedinfo: "Custom Power Apps Solutions and Integrations involve leveraging Microsoft Power Apps, a low-code platform, to create tailored applications addressing specific business needs. These solutions are designed to streamline processes, enhance productivity, and empower users to build applications with minimal coding effort. The integrations seamlessly connect these custom Power Apps with existing systems, Microsoft 365 services, and third-party applications, creating a unified digital ecosystem. This approach enables organizations to achieve a more agile and responsive infrastructure, fostering real-time collaboration, data accuracy, and efficient decision-making. Overall, the combination of custom Power Apps solutions and integrations offers a flexible and cost-effective way to meet unique business requirements and drive innovation within the organization." }, 
+                { Title: "Workflows Creation and Integrations", image: '/Images/Powerautomate.png', Detailedinfo:"Workflows creation and integrations involve designing and implementing automated sequences of tasks using tools like Microsoft Power Automate to streamline and optimize business processes. Workflows guide the flow of data and actions, reducing manual effort and improving efficiency. Integrations complement this by connecting workflows with various systems and applications, fostering a cohesive digital environment. This seamless exchange of information enhances operational efficiency, reduces errors, and facilitates faster decision-making. Ultimately, the combination of workflows creation and integrations contributes to a more agile and automated business infrastructure, promoting productivity and adaptability within the organization." },
+                { Title: "Sharepoint apps creation and permissions", image: '/Images/sharepoint.jpg', Detailedinfo: "SharePoint Apps Creation and Permissions encompass the development of applications on the SharePoint platform and the management of access rights to ensure secure and controlled data collaboration. Creating SharePoint apps involves leveraging tools such as SharePoint Framework (SPFx) or Power Apps to build tailored solutions that meet specific organizational needs, from document management to custom workflows. Permissions play a critical role in governing who can access, edit, and share content within these apps. SharePoint provides robust permission settings, allowing administrators to define user roles and control access at various levels, such as site, list, or item. By meticulously managing permissions, organizations can enforce data security, comply with regulatory requirements, and foster efficient collaboration by granting appropriate access to individuals or groups based on their responsibilities and roles within the organization." }],
+    'Servicesinfo': "Skilled in crafting dynamic user interfaces with React.js, I design and implement custom solutions using Power Apps for intuitive experiences, coupled with efficient business process automation through Power Automate.",
+    'Experience': [{ CompanyName: "Technovert Solutions", Role: "Software Developer", Duration: "February 2023 - Present", logo: { image: '/Images/tezologo.png', alterText: "Tezo", } },
+    { CompanyName: "Cognizant Solutions", Role: "Program Analyst Trainee", Duration: "November 2021 - February 2023", logo: { image: '/Images/cognizant.png', alterText: "Cognizant" } }],
+    'Projects': [{ image: "https://www.doditsolutions.com/wp-content/uploads/movie-theater-revival-popcorn-1.jpg", Name: "Ticket Booking Application", Description: "This Project is about booking a ticket online for a movie", TechnolgiesUsed: "React,NodeJS,MongoDb" },
+    { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrk89AqR8QX4eaL41sM9WoIVqCtErnIegWoQ&usqp=CAU", Name: "Loan App", Description: "the project contains user information and loan details and also user and edit the details", TechnolgiesUsed: "React,NodeJS,MongoDb" },
+    { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzJx_m1Iz7dSE0fyQQuLnX7V7WmjYxuUtqUzh70TfzJVSiLLLSXKnKVT0-ihq1Cp4ND6Q&usqp=CAU", Name: "Contract Review", Description: "The Projects contains 4 levels of approvals and Two levels of adobe sign integration", TechnolgiesUsed: "Power Automate,Sharepoint,Adobe Acrobat Sign" },
+    { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkoP-aSZVXppayRgy5W6iv_BCRbpLUbbSNnQ&usqp=CAU", Name: "Ticketing Portal", Description: "when a user raise a ticket via email a ticket will be created and we will maintain the tickets", TechnolgiesUsed: "Power apps,Power automate,Sharepoint" },
+    { image: "https://www.itarian.com/images/erp-help-desk-portal.png", Name: "Helpdesk Portal", Description: "when a user raise a ticket via Form a ticket will be created and we will maintain the tickets", TechnolgiesUsed: "Power apps,Power automate,Sharepoint,Microsoft Form" }],
+    'Contact': [{ Title: "Email", Value: "Nagashashank48@gmail.com", icon: "EmailIcon", Link: "" },
+    { Title: "Phone", Value: "7731077916", icon: "LocalPhoneIcon", Link: "" },
+    { Title: "LinkedIn", Value: "Nagashashank", icon: "LinkedInIcon", Link: "https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAADBH-ycB1GMYK60mkpvNkNa0EOtPydADPQ0&keywords=naga%20shashank&origin=RICH_QUERY_SUGGESTION&position=0&searchId=1d72bf88-a5b4-4c3f-986a-eb3ab9edbe19&sid=4xG&spellCorrectionEnabled=false" },
+    { Title: "Address", Value: "Tezo Digital", icon: "HomeIcon", Link: "" }]
 }
 export default portfolioConstants

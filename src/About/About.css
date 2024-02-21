@@ -164,5 +164,41 @@ width: 55%;
     width: 25%;
     height: 35px;
  }
-
+ .SeeMore:hover{
+    width: 25%;
+    height: 35px;
+ }
+ .popupcard{
+    top:5%
+ }
+ .Infolbl{
+    font-size: 25px;
+    margin-bottom: 2%;
+ }
+ .infolabel{
+    font-size: 15px;
+ }
+ .infoValue{
+    font-size: 16px;
+ }
+ .EducationalDetialslbl{
+    font-size: 25px;
+    margin-top: 2%;
+ }
+ .EducationalDetials .Educationicon {
+    font-size: 25px;
+}
+ .Passedout{
+    font-size: 15px;
+    align-content: center;
+    display: inline-grid;
+    width: 9%;
+    margin-left: 1%;
+ }
+ .EducationName{
+    font-size: 17px;
+ }
+ .EducationCollege{
+    font-size: 11px;
+ }
 }

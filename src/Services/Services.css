@@ -54,6 +54,35 @@
     top: 8px;
     position: relative;
 }
+.LearnmorePopup{
+    top: 15%;
+    background-color: rgb(18,22, 31);
+    position: relative;
+    width: 60%;
+    left: 20%;
+}
+.PopupImage{
+    left: 36%;
+    margin: 4% 0%;
+    height: 120px;
+    position: relative;
+    width: 200px;
+}
+.PopupTitle{
+    color: white;
+    margin: 2% 5%;
+}
+.Title{
+    font-size: 19px;
+    font-weight: bold;
+}
+.PopupInfo{
+    color: white;
+    margin: 3% 5%;
+    font-size: 14px;
+    padding-bottom: 5%;
+}
+
 @media screen and (max-width: 600px) {
     .Serviceimage{
         height: 45px;
@@ -69,5 +98,23 @@
     .Learnmorelbl .arrowicon{
         font-size: 15px;
         top: 5px;
+    }
+    .LearnmorePopup{
+        top: 5%;
+        width: 70%;
+        left: 15%;
+    }
+    .PopupImage{
+        left: 23%;
+        margin: 13% 0% 5% 0%;
+        height: 80px;
+        position: relative;
+        width: 150px;
+    }
+    .Title{
+        font-size: 16px;
+    }
+    .PopupInfo{
+        font-size: 12px;
     }
  }

@@ -56,7 +56,7 @@ const Navigation = (props:IDarkmode) => {
  
   return (
    <div ref={NavbarContainerRef} className={props.Darkmode?'NavigationbarDarkmode':'NavigationbarLightmode'}>
-      {window.innerWidth<=600?<div onClick={()=>setShowNavabar(!showNavbar)} className={props.Darkmode?'MenuIconDarkmode':'MenuIconLightmode'}><MenuIcon/></div>:<></>}
+      {window.innerWidth<=600?<div onClick={()=>setShowNavabar(!showNavbar)} className={props.Darkmode?'MenuIconDarkmode':'MenuIconLightmode'}><MenuIcon className='Menuicon'/></div>:<></>}
       {window.innerWidth>=600?<div className='Navigation'>
       <div className={`${activeScreen==="Contact"&&props.Darkmode?"ActivebuttonDarkmode":activeScreen==="Contact"&&!props.Darkmode?"ActivebuttonLightmode":""} ${props.Darkmode?'TabButtonDarkmode':'TabButtonLightmode'}`} onClick={()=>window.scrollTo({top:3300,behavior:'smooth'})} ><PermContactCalendarOutlinedIcon/>Contact</div>
       <div className={`${activeScreen==="Experience"&&props.Darkmode?"ActivebuttonDarkmode":activeScreen==="Experience"&&!props.Darkmode?"ActivebuttonLightmode":""} ${props.Darkmode?'TabButtonDarkmode':'TabButtonLightmode'}`} onClick={()=>window.scrollTo({top:2500,behavior:'smooth'})}><WorkHistoryOutlinedIcon/>Experience</div>
