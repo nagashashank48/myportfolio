@@ -99,12 +99,12 @@
     /* cursor: url('/public/logo192.png'), auto; */
 }
 .ActivebuttonDarkmode{
-    border-top: 2px solid #00fffc;
+    /* border-top: 2px solid #00fffc; */
     border-bottom: 2px solid #00fffc;
     height: 30px;
 }
 .ActivebuttonLightmode{
-    border-top: 2px solid grey;
+    /* border-top: 2px solid grey; */
     border-bottom: 2px solid grey;
     height: 30px;
 }
@@ -115,9 +115,20 @@
     .NavigationbarDarkmode{
         height: auto;
     }
-    .MenuIcon{
-        right: 0px;
+    .MenuIconDarkmode{
         top: 17%;
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        position: fixed;
+        background-color:#202121;
+    }
+    .MenuIconLightmode{
+        top: 17%;
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        background-color: rgb(245, 248, 252);
         position: fixed;
     }
     .Navigation{
@@ -126,15 +137,31 @@
     margin-top: 6%;
     }
     .TabButtonDarkmode{
-        padding-left: 71%;
+        margin-left: 65%;
         padding-top: 1%;
+        padding-left: 3%;
         background-color: #202121;
         gap: 10px;
     }
     .TabButtonLightmode{
-        padding-left: 71%;
+         margin-left: 65%;
         padding-top: 1%;
+        padding-left: 3%;
         background-color: rgb(245,248,252);
         gap: 10px;
+    }
+    .ActivebuttonDarkmode{
+        border-bottom: 2px solid #00fffc;
+        height: 30px;
+    }
+    .ActivebuttonLightmode{
+        border-bottom: 2px solid grey;
+        height: 30px;
+    }
+    .TabButtonDarkmode::before,.TabButtonDarkmode::after{
+        width: 0%;
+    }
+    .TabButtonLightmode::before,.TabButtonLightmode::after{
+        width: 0%;
     }
  }

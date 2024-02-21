@@ -15,9 +15,7 @@
     width: 100%;
     z-index: 7;
 }
-/* .Navigation{
-    display: flex;
-} */
+
 .darkmodechangebtn{
     z-index: 1;
     position: fixed;
@@ -50,3 +48,15 @@
     align-items: center;
     cursor: pointer;
 }
+@media screen and (max-width: 600px) {
+    .darkmodechangebtn{
+    top: 30%;
+    height: 5%;
+    width: 8%;
+}
+.lightmodechangebtn{
+    top: 30%;
+    height: 5%;
+    width: 8%;
+}
+ }

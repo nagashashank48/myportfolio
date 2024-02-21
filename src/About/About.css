@@ -159,3 +159,10 @@ width: 55%;
     margin-top: 1%;
     margin-left: 7%; 
 }
+@media screen and (max-width: 600px) {
+ .SeeMore{
+    width: 25%;
+    height: 35px;
+ }
+
+}
