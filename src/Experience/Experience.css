@@ -38,11 +38,15 @@
     position: relative;
     text-align: center;
 }
-.Companyimage{
+.CompanyimageDarkmode{
+    height: 55%;
+    width: 50%;
+    mix-blend-mode: lighten;
+}
+.CompanyimageLightmode{
     height: 55%;
     width: 50%;
     mix-blend-mode: multiply;
-
 }
 .CompanyName{
     font-size: 35px;
@@ -57,9 +61,13 @@
     font-size: 20px;
 }
 @media screen and (max-width: 600px) {
-    .Companyimage{
-        height: 40%;
+    .CompanyimageLightmode{
+        height: 33%;
         width: 60%;    
+    }
+    .CompanyimageDarkmode{
+        height: 33%;
+        width: 60%;
     }
     .CompanyName{
         font-size: 16px;

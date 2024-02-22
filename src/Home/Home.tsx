@@ -46,7 +46,7 @@ const removebyletter=()=>{
     <div className='Name HorizontolCenter'>Hello, I'm {Constants.Name}</div>
     <div className='TypingText'><span className='Header'>{header}</span></div>
     <div className='HorizontolCenter'><span className='Overview'>{Constants.PersonalOverview}</span></div>
-    <div className='HorizontolCenter'><button className={props.Darkmode?'CVDownloadbtnDarkmode':'CVDownloadbtnLightmode'}>Download CV</button></div>
+    <a href={process.env.PUBLIC_URL+Constants.Resume} download="Resume" target='_blank' className='Resumebutton'><div className='HorizontolCenter'><button className={props.Darkmode?'CVDownloadbtnDarkmode':'CVDownloadbtnLightmode'}>Download CV</button></div></a>
     </div>
   )
 }

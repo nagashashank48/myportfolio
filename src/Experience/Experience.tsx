@@ -10,7 +10,7 @@ const Experience = (props:IDarkmode) => {
     <div className='Companies'>
       {Constants.Experience.map((item)=>{
         return <div className={props.Darkmode?'CompanyCardDarkmode':'CompanyCardLightmode'}>
-            <img src={process.env.PUBLIC_URL + item.logo.image} alt={item.logo.alterText} className='Companyimage'/>
+            <img src={props.Darkmode?process.env.PUBLIC_URL + item.logo.Darkmodeimage:process.env.PUBLIC_URL+item.logo.Lightmodeimage} alt={item.logo.alterText} className={props.Darkmode?'CompanyimageDarkmode':'CompanyimageLightmode'}/>
             <div className='CompanyName'>{item.CompanyName}</div>
             <div className='CompanyRole'>{item.Role}</div>
             <div className='CompanyDuration'>{item.Duration}</div>

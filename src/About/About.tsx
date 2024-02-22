@@ -35,12 +35,12 @@ useEffect(()=>{
         setTimeout(()=>{
           array.push(Technology)
           setTechnologies(array)
-                       },500*index)
+                       },200*index)
         });
         setShowText(false)
       }
   },[scrollY])
-  const handleClose = () => setShowinfoPopup(false)
+const handleClose = () => setShowinfoPopup(false)
   return (
     <div className={props.Darkmode?'AboutSectionDarkmode':'AboutSectionLightmode'}>
       <div className='aboutTitle'>About ME</div>
